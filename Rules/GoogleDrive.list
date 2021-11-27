@@ -1,4 +1,3 @@
-payload:
   # > Google Drive
   - PROCESS-NAME,Backup and Sync
   - PROCESS-NAME,com.google.android.apps.docs
