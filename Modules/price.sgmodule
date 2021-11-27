@@ -1,0 +1,11 @@
+!name=头顶砖块找蘑菇
+#!desc=京东淘宝比价
+
+[Script]
+# 比价脚本 （淘宝若未加载脚本运行，得卸载重装）
+淘宝比价 = type=http-response,requires-body=1,max-size=0,pattern=^http://.+/amdc/mobileDispatch,script-path=https://service.2ti.st/QuanX/Script/jd_tb_price/main.js
+淘宝比价 = type=http-response,requires-body=1,max-size=0,pattern=^https?://trade-acs\.m\.taobao\.com/gw/mtop\.taobao\.detail\.getdetail,script-path=https://service.2ti.st/QuanX/Script/jd_tb_price/main.js
+京东比价 = type=http-response,requires-body=1,max-size=0,pattern=^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig),script-path=https://service.2ti.st/QuanX/Script/jd_tb_price/main.js
+
+[MITM]
+hostname = %APPEND% api.m.jd.com,trade-acs.m.taobao.com
