@@ -1,6 +1,5 @@
-  # > Google Drive
-  PROCESS-NAME,Backup
-  PROCESS-NAME,Sync
+  # Google Drive
+  PROCESS-NAME,Backup and Sync
   PROCESS-NAME,com.google.android.apps.docs
   DOMAIN-SUFFIX,docs.google.com
   DOMAIN-SUFFIX,drive.google.com
