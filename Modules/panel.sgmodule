@@ -2,7 +2,7 @@
 #!desc=头顶砖块找蘑菇自用信息面板
 [Panel]
 #启动时间 by @okmytg(TG)
-SurgePro_ReloadProfile = script-name = SurgePro_ReloadProfile, update-interval = 1
+SurgePro_ReloadProfile = script-name = SurgePro_ReloadProfile, update-interval = 60
 
 #网络信息 by @Peng-YM(TG)
 net-info-panel = script-name = net-info-panel, title = "网络状态", content="请刷新",style=info, update-interval = 60
